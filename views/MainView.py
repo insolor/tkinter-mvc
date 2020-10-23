@@ -1,7 +1,7 @@
 # -*- coding:UTF-8 -*-
 __author__ = 'lilei'
 
-import Tkinter as tk
+import tkinter as tk
 
 class View(tk.Toplevel):
     def __init__(self, master):

@@ -1,7 +1,7 @@
 # -*- coding:UTF-8 -*-
 __author__ = 'lilei'
 
-import Tkinter as tk
+import tkinter as tk
 
 class Model:
     def __init__(self):

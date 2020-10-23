@@ -2,7 +2,7 @@
 __author__ = 'lilei'
 
 if __name__ == '__main__':
-    import Tkinter as tk
+    import tkinter as tk
     from controllers.MainController import Controller
 
     root = tk.Tk()
