@@ -1,12 +1,12 @@
 # -*- coding:UTF-8 -*-
 __author__ = 'lilei'
 
-if __name__ == '__main__':
-    import tkinter as tk
-    from controllers.MainController import Controller
+import tkinter as tk
+from controllers import MainController
 
+
+if __name__ == '__main__':
     root = tk.Tk()
     root.withdraw()
-    app = Controller(root)
+    app = MainController(root)
     root.mainloop()
-
